@@ -16,10 +16,10 @@ Each `.ts` file corresponds to a specific exercise, sometimes updated to accommo
 9. **Persona.ts** → Updated version: `Visitante` and `Guardia` extend `Persona`. Demonstrates inheritance.  
 10. **Guardia.ts / Visitante.ts / Persona.ts** → Add method `presentarse()` in `Persona`. Override `presentarse()` in `Guardia` to return “Hello, my name is <name> and I am the guard.” Demonstrate method precedence.  
 11. **Visitante.ts / Guardia.ts** → Add private `dni` to `Visitante` with getters/setters. Add `controlarDocumento(dni)` in `Guardia` that prints “Adelante persona con DNI: <dni>”. Create instances and demonstrate functionality.
+12. **Guardia.ts / Visitante.ts** → Updated `controlarDocumento()` in `Guardia` to include visitor’s full name with DNI. Demonstrated with instances.
 
 ## Exercises In Progress (12+)
 
-12. Modify `controlarDocumento()` in `Guardia` to include visitor’s full name with DNI.  
 13. KT-2020 robot with customizable traction systems. Design classes, create instances, show stats.  
 14. Drone system with attachable tools. Model classes, update speed/altitude based on weight.  
 15. Fleet management for naval ships. Classes for different ship types, instantiate and print stats.  
