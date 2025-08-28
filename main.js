@@ -1,0 +1,12 @@
+"use strict";
+Object.defineProperty(exports, "__esModule", { value: true });
+var Persona_1 = require("./Persona");
+var Visitante_1 = require("./Visitante");
+var Guardia_1 = require("./Guardia");
+var MiPersona = new Persona_1.Persona("Juan", "Perez");
+var MiVisita = new Visitante_1.default("Fausto", "Sarmiento", 17607849);
+var MiGuardia = new Guardia_1.default("Manuel", "Tomas");
+console.log(MiPersona.presentarse());
+console.log(MiVisita.presentarse());
+console.log(MiGuardia.presentarse());
+console.log(MiGuardia.controlarDocumento(MiVisita.getDni()));
