@@ -1,7 +1,7 @@
 # OOP Exercises - Solutions
 
 This repository contains TypeScript solutions for the Object-Oriented Programming (OOP) exercises from the faculty unit.  
-Each `.ts` file corresponds to a specific exercise, sometimes updated to accommodate multiple exercises.
+Each `.ts` file corresponds to an specific exercise, sometimes updated to accommodate multiple exercises.
 
 ## Exercises Completed (1–13)
 
