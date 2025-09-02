@@ -9,4 +9,4 @@ const MiGuardia = new Guardia("Manuel", "Tomas")
 console.log(MiPersona.presentarse());
 console.log(MiVisita.presentarse());
 console.log(MiGuardia.presentarse());
-console.log(MiGuardia.controlarDocumento(MiVisita.getDni()))
+console.log(MiGuardia.controlarDocumento(MiVisita))

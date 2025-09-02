@@ -6,8 +6,8 @@ export default class Guardia extends Persona {
         return (`Hola, mi nombre es ${this.getNombre()} ${this.getApellido()} y soy el guardia`)
     }
 
-    public controlarDocumento(dni: number): string {
-        return (`Adelante ${this.getNombre()}: ` + dni);
+    public controlarDocumento(visitante: Visitante): string {
+        return (`Adelante ${visitante.getNombre()}, ${visitante.getApellido()}: con dni ${visitante.getDni()}`);
     }
 
 }

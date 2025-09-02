@@ -1,0 +1,10 @@
+"use strict";
+Object.defineProperty(exports, "__esModule", { value: true });
+var Robot_1 = require("./Robot");
+var RuedaCaucho_1 = require("./RuedaCaucho");
+var Oruga_1 = require("./Oruga");
+var robot = new Robot_1.Robot("KT-2020-P", 10);
+robot.setTraccion(new RuedaCaucho_1.RuedaCaucho());
+robot.mostrarInfo();
+robot.setTraccion(new Oruga_1.Oruga());
+robot.mostrarInfo();
