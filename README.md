@@ -3,7 +3,7 @@
 This repository contains TypeScript solutions for the Object-Oriented Programming (OOP) exercises from the faculty unit.  
 Each `.ts` file corresponds to a specific exercise, sometimes updated to accommodate multiple exercises.
 
-## Exercises Completed (1–11)
+## Exercises Completed (1–13)
 
 1. **Persona1.ts** → Create a `Persona` class with public `nombre` and `apellido` attributes. Create an instance and print values.  
 2. **Vehiculo.ts** → Create a `Vehiculo` class with public `marca` and `modelo` and a private `patente`. Create an instance and print accessible values.  
@@ -17,10 +17,15 @@ Each `.ts` file corresponds to a specific exercise, sometimes updated to accommo
 10. **Guardia.ts / Visitante.ts / Persona.ts** → Add method `presentarse()` in `Persona`. Override `presentarse()` in `Guardia` to return “Hello, my name is <name> and I am the guard.” Demonstrate method precedence.  
 11. **Visitante.ts / Guardia.ts** → Add private `dni` to `Visitante` with getters/setters. Add `controlarDocumento(dni)` in `Guardia` that prints “Adelante persona con DNI: <dni>”. Create instances and demonstrate functionality.
 12. **Guardia.ts / Visitante.ts** → Updated `controlarDocumento()` in `Guardia` to include visitor’s full name with DNI. Demonstrated with instances.
+13. **KT-2020-P.ts / Robot.ts / RuedaCaucho.ts / Oruga.ts / Traccion.ts** → Robot class with `numeroSerie` and `ptb` attributes.
+
+    * `Traccion` interface with `tipo`, `hpRestado`, `distanciaMax`, and `getInfo()`.
+    * Implemented `RuedaCaucho` and `Oruga` classes that implement `Traccion`.
+    * Assign traction to robot using `setTraccion()` and display stats via `mostrarInfo()`.
+    * Demonstrates **composition**, dynamic assignment of components, and usage of interfaces.
 
 ## Exercises In Progress (12+)
-
-13. KT-2020 robot with customizable traction systems. Design classes, create instances, show stats.  
+ 
 14. Drone system with attachable tools. Model classes, update speed/altitude based on weight.  
 15. Fleet management for naval ships. Classes for different ship types, instantiate and print stats.  
 16. Logistics company vehicles. `cargar()` and `listarItems()` methods, handle max capacity.  
