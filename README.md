@@ -21,7 +21,7 @@ Each `.ts` file corresponds to an specific exercise, sometimes updated to accomm
 
     * `Traccion` interface with `tipo`, `hpRestado`, `distanciaMax`, and `getInfo()`.
     * Implemented `RuedaCaucho` and `Oruga` classes that implement `Traccion`.
-    * Assign traction to robot using `setTraccion()` and display stats via `mostrarInfo()`.
+    * Assign traction to robot using `setTraccion()` and displays stats via `mostrarInfo()`.
     * Demonstrates **composition**, dynamic assignment of components, and usage of interfaces.
 
 ## Exercises In Progress (12+)
