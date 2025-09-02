@@ -9,7 +9,7 @@ Each `.ts` file corresponds to an specific exercise, sometimes updated to accomm
 2. [Vehiculo.ts](./exercises/02-Vehiculo/Vehiculo.ts) → Create a `Vehiculo` class with public `marca` and `modelo` and a private `patente`. Create an instance and print accessible values.  
 3. [Articulo.ts](./exercises/03-Articulo/Articulo.ts) → Create an `Articulo` class with private `marca` and `modelo`. Add public getters/setters. Create an instance. Note that private attributes cannot be printed directly.  
 4. [Cine.ts](./exercises/04-Cine/Cine.ts) → First version: private attributes `pelicula` and `horario`, getters/setters, method `obtenerCartelera()`. Create an instance and print values.  
-5. [Cine.ts](./exercises/04-Cine/Cine.ts)  → Updated version: create a second instance, modify the first instance, show both; demonstrates that `new` creates distinct objects.  
+5. [Cine.ts](./exercises/04-Cine/Cine.ts)  → Updated version: create a second instance, modify the first instance, show both; demonstrate that `new` creates distinct objects.  
 6. [Fruta.ts](./exercises/06-Fruta/Fruta.ts) → Class with private attributes `color`, `peso`, `esEstacional`. Getters/setters, `esComestible()` method, two constructors (with and without initial values).  
 7. [Ninja.ts](./exercises/07-Ninja/Ninja.ts) → Class with private attributes `arteMarcial`, `arma`, `fuerza`, `salto`. Getters/setters, methods `saltar(multiplier)` and `ataque()`. Two instances with different values.  
 8. [Persona.ts](./exercises/08-Persona/Persona.ts) → Class `Persona` with private `nombre` and `apellido`. Create `Visitante` and `Guardia` classes with same attributes. Instances created and printed.  
