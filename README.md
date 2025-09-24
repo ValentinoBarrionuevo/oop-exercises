@@ -23,10 +23,17 @@ Each `.ts` file corresponds to an specific exercise, sometimes updated to accomm
     * Implemented `RuedaCaucho` and `Oruga` classes that implement `Traccion`.
     * Assign traction to robot using `setTraccion()` and displays stats via `mostrarInfo()`.
     * Demonstrates **composition**, dynamic assignment of components, and usage of interfaces.
+14. Drones with Tools
+
+    * Implementation of the `Drone` class and tools (`Sensor`, `Taser`, `Brazo`).
+    * Calculation of drone speed and altitude based on the weight of the tool.
+    * Use of an array of tools and a `for…of` loop to **avoid repeating code** when displaying information.
+    * `main.ts` file includes instantiation of the drone and all tools, showing results in the console.
+
+
 
 ## Exercises In Progress (12+)
  
-14. Drone system with attachable tools. Model classes, update speed/altitude based on weight.  
 15. Fleet management for naval ships. Classes for different ship types, instantiate and print stats.  
 16. Logistics company vehicles. `cargar()` and `listarItems()` methods, handle max capacity.  
 17. Scanner for objects and containers. Class hierarchy for simple, container, content, and nested objects.  
