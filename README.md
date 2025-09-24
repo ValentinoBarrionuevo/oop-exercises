@@ -23,9 +23,8 @@ Each `.ts` file corresponds to an specific exercise, sometimes updated to accomm
     * Implemented `RuedaCaucho` and `Oruga` classes that implement `Traccion`.
     * Assign traction to robot using `setTraccion()` and displays stats via `mostrarInfo()`.
     * Demonstrates **composition**, dynamic assignment of components, and usage of interfaces.
-14. Drones with Tools
+14. [Drone](./exercises/14-Drone) → `Drone` with `Sensor`, `Taser`, `Brazo`
 
-    * Implementation of the `Drone` class and tools (`Sensor`, `Taser`, `Brazo`).
     * Calculation of drone speed and altitude based on the weight of the tool.
     * Use of an array of tools and a `for…of` loop to **avoid repeating code** when displaying information.
     * `main.ts` file includes instantiation of the drone and all tools, showing results in the console.
